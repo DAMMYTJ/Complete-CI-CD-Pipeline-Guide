@@ -32,7 +32,6 @@ Pipeline Configuration
 Here’s the pipeline script we’ll use in our Jenkins job:
 
 groovy
-Copy code
 pipeline {
     agent any
     tools {
@@ -85,6 +84,7 @@ pipeline {
         }
     }
 }
+
 Pipeline Stages Explained
 Fetch code: This stage clones the repository from GitHub.
 Build: Compiles the project using Maven, with tests skipped to speed up the process.
