@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Fetch code') {
             steps {
-                git branch: 'vp-rem', url: 'https://github.com/DAMMYTJ/javaapprepo.git'
+                git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-repo.git'
             }
         }
         stage('Build') {
@@ -99,6 +99,11 @@ Nexus OSS Sonatype is a software repository that stores and retrieves software a
    - In Jenkins, go to `Manage Jenkins` > `Manage Credentials`.
    - Add a new global username and password credential for Nexus with ID `nexuslogin`.
 
+## Running Nexus on EC2
+
+- **Port Configuration**: Nexus runs on port 8081. Ensure your EC2 instance's security group allows traffic on port 8081.
+- **Security Group Settings**: Update the security group associated with your EC2 instance to allow inbound traffic on port 8081.
+
 ## Integration with Jenkins
 
 1. **Pipeline Configuration**:
@@ -113,4 +118,3 @@ Nexus OSS Sonatype is a software repository that stores and retrieves software a
    - Verify that the artifact is successfully uploaded to Nexus by checking the repository.
 
 This setup ensures that your artifacts are versioned and stored securely in Nexus, making them available for deployment and further testing by the operations team or automation scripts.
-```
