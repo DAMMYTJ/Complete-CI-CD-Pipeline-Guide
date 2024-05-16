@@ -1,4 +1,3 @@
-## Complete CI/CD Pipeline Guide
 
 ### Overview
 
@@ -392,3 +391,24 @@ pipeline {
     }
 }
 ```
+
+<img width="1792" alt="Screenshot 2024-05-16 at 10 05 01 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/294e12ab-a8d2-49af-b4ad-dd412e1f85c1">
+<img width="1792" alt="Screenshot 2024-05-16 at 10 05 05 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/727e4d67-8087-4b0b-961a-232ba1a3f8b9">
+
+<img width="1792" alt="Screenshot 2024-05-16 at 10 05 18 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/198ef6e3-e203-4e45-b641-6dcbfa74033f">
+
+<img width="1792" alt="Screenshot 2024-05-16 at 10 05 28 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/42469ba9-c114-4f26-9e20-7ba4ed2dd5a5">
+<img width="1792" alt="Screenshot 2024-05-16 at 10 07 24 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/2a034002-42f3-4514-bdbe-7f8d90e6c591">
+
+<img width="1792" alt="Screenshot 2024-05-16 at 10 07 31 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/3d4c14ee-b492-4939-884f-e1231253a5bf">
+<img width="1792" alt="Screenshot 2024-05-16 at 10 08 02 PM" src="https://github.com/DAMMYTJ/Complete-CI-CD-Pipeline-Guide/assets/111458165/f294be0a-e70a-4aff-b639-315d15c390cb">
+
+
+
+
+
+
+
+
+
+
