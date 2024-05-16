@@ -1,4 +1,4 @@
-```markdown
+
 # Nexus Integration in Jenkins CI/CD Pipeline
 
 After setting up Jenkins and successfully passing the SonarQube stage, the next crucial step in our CI/CD pipeline is to integrate with Nexus to upload our built artifacts. Nexus serves as a powerful repository manager, allowing us to store and retrieve artifacts, acting as a central hub for our project's dependencies and built artifacts.
